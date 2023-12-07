@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "23297852",
+      "name": "adduser-btn",
+      "font_class": "adduser-btn",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "23297990",
+      "name": "bianji-icon",
+      "font_class": "bianji-icon",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "23298114",
+      "name": "userssettings",
+      "font_class": "userssettings",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "23298146",
+      "name": "xianshi-icon",
+      "font_class": "xianshi-icon",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "23517661",
+      "name": "addfirm-btn",
+      "font_class": "addfirm-btn",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "23563601",
+      "name": "cancel",
+      "font_class": "cancel",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "23563636",
+      "name": "yes",
+      "font_class": "yes",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

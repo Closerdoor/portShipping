@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11807983",
+      "name": "停用_line",
+      "font_class": "tingyong_line",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "16395835",
+      "name": "双向箭头",
+      "font_class": "shuangxiangjiantou",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "20620796",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "23297852",
+      "name": "adduser-btn",
+      "font_class": "adduser-btn",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "23297990",
+      "name": "bianji-icon",
+      "font_class": "bianji-icon",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "23298114",
+      "name": "userssettings",
+      "font_class": "userssettings",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "23298146",
+      "name": "xianshi-icon",
+      "font_class": "xianshi-icon",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}

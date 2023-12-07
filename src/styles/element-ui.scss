@@ -1,0 +1,341 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-button {
+  width: 70px;
+  height: 30px;
+  padding: 0;
+  border-radius: 0;
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+.input_style {
+
+  .el-input,
+  .el-select {
+    width: 160px;
+    height: 30px;
+
+    input {
+      height: 30px;
+      width: 160px;
+      background-color: #fff;
+      border: 1px solid #EAEAEA;
+
+      &::placeholder {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #C3C8CC;
+      }
+
+    }
+
+    .el-input__suffix {
+      height: auto;
+    }
+  }
+}
+
+.input_style_max {
+
+  .el-input,
+  .el-select {
+    width: 400px;
+    height: 30px;
+
+    input {
+      height: 30px;
+      width: 400px;
+      background-color: #fff;
+      border: 1px solid #EAEAEA;
+
+      &::placeholder {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #C3C8CC;
+      }
+
+    }
+
+    .el-input__suffix {
+      height: auto;
+    }
+  }
+}
+
+.commit_btn {
+  border-radius: 3px;
+  border: none;
+  background-color: #409eff;
+  color: #fff;
+}
+
+.commit_btn:hover {
+  border: none;
+  background-color: #409eff;
+  color: #fff;
+}
+
+.white_btn:hover {
+  border: 1px solid #EAEAEA;
+  color: #323538;
+  background-color: #fff;
+}
+
+.white_btn {
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  color: #323538;
+  background-color: #fff;
+}
+
+.addPop {
+  .el-dialog {
+    background: #fff;
+    width: 750px;
+    // height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    .el-dialog__header {
+      width: 100%;
+
+      .el-dialog__title {
+        display: flex;
+        font-size: 18px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2F3541;
+        justify-content: flex-start;
+        align-items: center;
+
+      }
+    }
+
+    .el-dialog__body {
+      padding: 0;
+      // width: 320px;
+
+      .el-form {
+        .el-form-item {}
+      }
+    }
+
+    .el-textarea {
+      textarea {
+        width: 400px;
+        height: 81px;
+        // background-color: #F5F8FA;
+        border: 1px solid #EAEAEA;
+      }
+    }
+
+    .el-dialog__footer {
+      width: 100%;
+      padding: 15px 20px 20px;
+      text-align: right;
+    }
+  }
+}
+
+.paging_class {
+  display: flex;
+  justify-content: flex-end;
+  >.pagination {
+    margin-top: 8px;
+    >.el-pagination__total {
+      margin-left: 10px !important;
+      padding-top: 2px;
+    }
+  }
+}
+
+.form_class {
+
+  .el-input,
+  .el-select {
+    width: 400px;
+    height: 30px;
+
+    input {
+      height: 30px;
+      width: 400px;
+      background: #fff;
+      border: 1px solid #EAEAEA;
+
+      &::placeholder {
+        font-size: 13px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #C3C8CC;
+      }
+
+    }
+
+    .el-input__suffix {
+      height: auto;
+    }
+  }
+
+  .el-textarea {
+    textarea {
+      width: 400px;
+      height: 81px;
+      background-color: #F5F8FA;
+      border: none;
+    }
+  }
+
+  .el-checkbox-group {
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  // .el-form {
+  .el-form-item {
+    // text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+    .el-form-item__label {
+      font-size: 13px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #333;
+      // line-height: 30px;
+      // text-align: left;
+    }
+
+    .el-input__suffix {
+      height: auto;
+    }
+  }
+
+  // }
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+  color: #2F3541;
+}
+
+.el-checkbox__inner {
+  background: #F0F3F5;
+  border: 1px solid #CCCCCC;
+}
+
+.top_form {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 20px;
+  // padding: 20px 30px 0px 30px;
+
+  .el-input {
+    width: 400px;
+  }
+}
+
+.dictionaryForm {
+  .el-dialog {
+    width: 1000px;
+  }
+
+  .el-dialog__header {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #323538;
+  }
+
+  .el-dialog__body {
+    padding: 10px 30px;
+    padding-bottom: 20px;
+  }
+
+  .dictionary_form {
+    .el-dialog__header {
+      width: 100%;
+
+      .el-dialog__title {
+        display: flex;
+        font-size: 18px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2F3541;
+        justify-content: flex-start;
+        align-items: center;
+
+      }
+    }
+
+    .el-dialog__footer {
+      width: 100%;
+      padding: 15px 20px 20px;
+      text-align: right;
+    }
+
+    .el-input {
+      width: 300px;
+    }
+
+    .el-textarea {
+      textarea {
+        width: 300px;
+        height: 80px;
+        border: 1px solid #EAEAEA;
+      }
+    }
+  }
+
+}
